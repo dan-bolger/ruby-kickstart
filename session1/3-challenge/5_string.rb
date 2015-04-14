@@ -5,4 +5,7 @@
 # add_more_ruby("Sad times are ahead!")         # => "Happy times are ahead!"
 
 def add_more_ruby(string)
+	if string = "happy"
+		puts "sad"
+	end
 end
