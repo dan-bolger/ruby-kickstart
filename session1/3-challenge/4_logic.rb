@@ -15,18 +15,18 @@
 def grade(num_books, has_read_books)
 	if has_read_books
 		if num_books < 10
-		C
+			C
 		if num_books < 20
-		B
+			B
 		if num_books > 20
-		A
+			A
 	else
 		if num_books < 10
-		D
+			D
 		if num_books < 20
-		C
+			C
 		if num_books > 20
-		B
+			B
 	end
 end
 
